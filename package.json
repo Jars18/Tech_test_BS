@@ -2,6 +2,7 @@
   "name": "tech_test_bancosol",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jars18.github.io/BS_tech_test",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "axios": "^0.19.0",
@@ -40,6 +41,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^14.6.1",
+    "gh-pages": "^6.3.0",
     "jest": "^27.5.1",
     "jest-watch-typeahead": "^2.2.2"
   }
