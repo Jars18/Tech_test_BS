@@ -1,0 +1,9 @@
+.comment-section {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.comment-section ul {
+  width: 100%;
+}

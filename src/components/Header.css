@@ -1,0 +1,13 @@
+header {
+  background: #787569;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
+}
+h1,
+h2 {
+  color: white;
+  font-family: "Arial, sans-serif";
+  margin: 0;
+}

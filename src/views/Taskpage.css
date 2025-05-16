@@ -1,0 +1,5 @@
+.Taskpage {
+  background: #c9c5b1;
+  min-height: 100vh; /* Garantiza que al menos ocupe toda la pantalla */
+  margin: 0;
+}

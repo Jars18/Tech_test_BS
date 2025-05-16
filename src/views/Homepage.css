@@ -1,0 +1,35 @@
+.Homepage {
+  background-color: beige;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-content h1 {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 4rem;
+  color: #333;
+}
+.homepage-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 2em;
+}
+.account-selection {
+  border-radius: 10px;
+  border: #333 solid 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 2em;
+  width: 50vw;
+}

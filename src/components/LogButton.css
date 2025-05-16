@@ -1,0 +1,22 @@
+.log-button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estado por defecto (no logueado) */
+.log-button {
+  background-color: #4f4d46; /* Verde */
+}
+
+/* Hover cuando no está logueado */
+.log-button:hover {
+  background-color: #728973; /* Verde oscuro */
+}
