@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tech_test_BS/static/css/main.c00d3be8.css",
+    "main.js": "/Tech_test_BS/static/js/main.73abc945.js",
+    "static/js/453.2aaf3092.chunk.js": "/Tech_test_BS/static/js/453.2aaf3092.chunk.js",
+    "static/media/AddTaskIcon.svg": "/Tech_test_BS/static/media/AddTaskIcon.304d9dcbcd694dd8467b0aaef4d4d521.svg",
+    "index.html": "/Tech_test_BS/index.html",
+    "main.c00d3be8.css.map": "/Tech_test_BS/static/css/main.c00d3be8.css.map",
+    "main.73abc945.js.map": "/Tech_test_BS/static/js/main.73abc945.js.map",
+    "453.2aaf3092.chunk.js.map": "/Tech_test_BS/static/js/453.2aaf3092.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c00d3be8.css",
+    "static/js/main.73abc945.js"
+  ]
+}
