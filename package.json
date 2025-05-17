@@ -2,7 +2,7 @@
   "name": "tech_test_bancosol",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jars18.github.io/BS_tech_test",
+  "homepage": "https://jars18.github.io/Tech_test_BS",
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/dom": "^10.4.0",
