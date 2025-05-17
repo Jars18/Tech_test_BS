@@ -1,14 +1,11 @@
-import { useState } from "react";
 import "./AddTask.css";
-import AddTaskIcon from "../assets/AddTaskIcon.svg"; // Cambia la ruta según tu estructura de carpetas
+import AddTaskIcon from "../../assets/icons/AddTaskIcon.svg";
 
 function AddTask({ onAddTask }) {
-  const [title, setTitle] = useState("");
-  const [body, setBody] = useState("");
-
+  //Manejador muestra alerta para agregar tarea
   const showPrompt = () => {
     const titleInput = prompt("Nombre de la tarea (requerido):");
-    if (titleInput === null) return; // Si hace click en Cancelar
+    if (titleInput === null) return;
 
     if (!titleInput.trim()) {
       alert("Debes ingresar un nombre para la tarea");
@@ -17,7 +14,6 @@ function AddTask({ onAddTask }) {
 
     const bodyInput = prompt("Descripción (opcional):", "");
     if (bodyInput !== null) {
-      // Solo si no hizo click en Cancelar
       onAddTask(titleInput, bodyInput || "");
     }
   };
@@ -25,7 +21,7 @@ function AddTask({ onAddTask }) {
   return (
     <button className="add-task-button" onClick={showPrompt}>
       <span className="add-task-text">Agregar tarea</span>
-      <img src={AddTaskIcon} />
+      <img src={AddTaskIcon} alt="Add icon" />
     </button>
   );
 }

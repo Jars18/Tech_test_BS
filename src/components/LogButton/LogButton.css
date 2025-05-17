@@ -10,13 +10,10 @@
   transition: background-color 0.3s;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
-/* Estado por defecto (no logueado) */
 .log-button {
-  background-color: #4f4d46; /* Verde */
+  background-color: #4f4d46;
 }
 
-/* Hover cuando no está logueado */
 .log-button:hover {
-  background-color: #728973; /* Verde oscuro */
+  background-color: #728973;
 }

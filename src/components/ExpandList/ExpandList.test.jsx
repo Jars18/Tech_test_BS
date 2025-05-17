@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import ExpandList from "../ExpandList";
+import ExpandList from "./ExpandList";
 
 const items = [{ name: "Item 1" }, { name: "Item 2" }, { name: "Item 3" }];
 

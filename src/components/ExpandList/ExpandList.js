@@ -5,8 +5,6 @@ function ExpandList({
   items,
   initialItems = 1,
   renderItem,
-  listClassName = "",
-  itemClassName = "",
   buttonText = (showAll, total) =>
     showAll ? "Mostrar menos" : `Mostrar todos los comentarios (${total})`,
 }) {
@@ -16,11 +14,9 @@ function ExpandList({
 
   return (
     <div>
-      <ul className={listClassName}>
+      <ul>
         {itemsToShow.map((item, index) => (
-          <li key={index} className={itemClassName}>
-            {renderItem(item)}
-          </li>
+          <li key={index}>{renderItem(item)}</li>
         ))}
       </ul>
 

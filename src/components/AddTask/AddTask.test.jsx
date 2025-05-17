@@ -1,9 +1,9 @@
 import { render, fireEvent } from "@testing-library/react";
-import AddTask from "../AddTask";
+import AddTask from "./AddTask";
 
 describe("AddTask", () => {
+  //Configuro la alerta y prompt, despues limpio la configuracion
   beforeAll(() => {
-    // Simular alert para evitar errores en Jest
     window.alert = jest.fn();
   });
 
@@ -14,13 +14,13 @@ describe("AddTask", () => {
   afterEach(() => {
     jest.restoreAllMocks();
   });
-
+  //Tests
   test("agrega tarea con inputs válidos", () => {
     const onAddTask = jest.fn();
     window.prompt = jest
       .fn()
-      .mockReturnValueOnce("Tarea 1") // 1er prompt: título
-      .mockReturnValueOnce("Descripción 1"); // 2do prompt: descripción
+      .mockReturnValueOnce("Tarea 1")
+      .mockReturnValueOnce("Descripción 1");
 
     const { getByRole } = render(<AddTask onAddTask={onAddTask} />);
     fireEvent.click(getByRole("button"));

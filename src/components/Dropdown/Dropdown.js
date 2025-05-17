@@ -1,6 +1,6 @@
 import "./Dropdown.css";
 
-function Dropdown({ selectedUserId, onUserChange }) {
+function Dropdown({ selectedUser, onUserChange }) {
   const options = [
     { userId: "1", userName: "Edson Villarroel" },
     { userId: "2", userName: "Jhonny Lopez" },
@@ -16,7 +16,7 @@ function Dropdown({ selectedUserId, onUserChange }) {
 
   return (
     <div className="Dropdown">
-      <select value={selectedUserId} onChange={handleChange} className="">
+      <select value={selectedUser.id} onChange={handleChange} className="">
         <option value="">User</option>
         {options.map((option) => (
           <option key={option.userId} value={option.userId}>
